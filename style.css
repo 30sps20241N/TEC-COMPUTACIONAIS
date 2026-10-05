@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --cor-fundo: #acd4f8 ;
     --cor-principal: #091053 ;
@@ -8,12 +10,13 @@
 }
 
 body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+background-color: var(--cor-fundo);
+color: var(--cor-texto);
+font-family: "Montserrat", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
 }
 
 .caixa-principal{
@@ -24,8 +27,8 @@ body {
     padding: 20px;
 }
 
-h1{
-    color: var(--cor-destaque);
+h1, .caixa-perguntas, .caixa-resultado{
+    font-family: "Montserrat", sans-serif;
 }
 
 button {
@@ -40,4 +43,18 @@ button {
 button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
+}
+
+.caixa-alternativas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caixa-resultado{
+    display: none;
+}
+
+.caixa-resultado.mostrar{
+    display: block;
 }
