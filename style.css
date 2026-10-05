@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor-fundo: #acd4f8 ;
-    --cor-principal: #091053 ;
-    --cor-secundaria: #6574e4; 
-    --cor-destaque: #ff87b9;
-    --cor-texto: #a1e5f1;
+    --cor-fundo: #fed2ff ;
+    --cor-principal: #33d6ff ;
+    --cor-secundaria: #2c40da; 
+    --cor-destaque: #fc82b5;
+    --cor-texto: #1a2b8b;
 
 }
 
